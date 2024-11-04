@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif; /* Tipografía */
+    background-color: #d3d5d6; /* Color de fondo */
+    margin: 20px; /* Margen alrededor del contenido */
+}
+
+.list-group {
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+.btn-custom {
+    display: inline-block; /* Permitir márgenes y padding */
+    padding: 10px 20px; /* Espaciado interno */
+    color: white; /* Color del texto */
+    background-color: #7c9ec4; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave */
+    margin-top: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
